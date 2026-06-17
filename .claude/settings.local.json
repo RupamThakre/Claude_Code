@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "PowerShell(Set-Location D:\\\\Code_2026\\\\8_AI\\\\rupams-ai-planet; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"npm run dev\" -WindowStyle Normal)",
+      "Bash(node --input-type=module)",
+      "Bash(python -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(py --version)",
+      "Bash(where pdfimages *)",
+      "Bash(where pdftoppm *)",
+      "Bash(where gs *)",
+      "Bash(where magick *)",
+      "Bash(where mutool *)"
+    ]
+  }
+}
